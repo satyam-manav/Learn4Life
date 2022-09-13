@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+<style>
+    #heading{
+        text-align: center;
+    }
+    #time{
+        display: block;
+        text-align: center;
+    }
+    #btn{
+        display: block;
+        margin: auto;
+    }
+    #bar{
+        width: 0px;
+        height: 20px;
+        /* border: 2px solid red; */
+        display: inline-block;
+        background-color: red;
+    }
+
+    #container{
+        height: 20px;
+        width: 300px;
+        background-color: black;
+        display: block;
+        margin: auto;
+    }
+
+
+</style>
+
+<body>
+    <h2 id="heading">Hello Timer</h2>
+    <div>
+        <div id="container">
+            <div id="bar"></div>&nbsp;
+        </div>
+        <br>
+        <span id="time"></span>
+    </div>
+    <br><br>
+
+    <button id="btn" onclick="runTimer()">Click Me</button>
+    <button id="btn" onclick="stopTimer()">Stop</button>
+    <button id="btn" onclick="resetTimer()">Reset</button>
+
+</body>
+<script src="./timer.js"></script>
+</html>
