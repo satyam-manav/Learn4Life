@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class check1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Simple addition Program
 		Scanner sc=new Scanner(System.in);
 		int a,b,c;
 			

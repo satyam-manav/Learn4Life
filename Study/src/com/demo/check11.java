@@ -39,6 +39,7 @@ public class check11 {
 			add("Manav");
 		}};
 		
+		//Hashset store only unique elements
 		HashSet<String> unique=new HashSet<String>();
 		
 		a.forEach(item ->{

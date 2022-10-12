@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class check2 {
 
 	/**
-	 * @param args
+	 * A Smith number is a composite number whose sum of digits equals
+	 * to the sum of digits of its prime factors, excluding 1.
+	 * It is also known as a joke number
 	 */
 	public static void main(String[] args) {
 		int n,res;
